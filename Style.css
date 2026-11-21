@@ -76,6 +76,7 @@ button, a { cursor: pointer; }
 }
 .nav-contact:hover { background: var(--ink); color: var(--white); }
 .menu-toggle { display: none; }
+.menu-toggle svg { stroke-width: 1.5; }
 
 .hero {
     min-height: 720px;
@@ -136,6 +137,8 @@ button, a { cursor: pointer; }
     font-weight: 600;
 }
 .text-link span { transition: transform 220ms ease; }
+.text-link svg { transition: transform 220ms ease; }
+.text-link:hover svg { transform: translate(3px, -3px); }
 .text-link:hover span { transform: translate(3px, -3px); }
 
 .hero-art {
@@ -382,6 +385,8 @@ footer { background: #151311; color: var(--paper); }
 .footer-address { justify-self: center; color: rgba(255,255,255,0.58); font-size: 12px; }
 .footer-links { justify-self: end; display: flex; flex-direction: column; gap: 7px; }
 .footer-links a { font-size: 12px; transition: color 180ms ease; }
+.footer-links a { display: flex; align-items: center; gap: 8px; }
+.footer-links a svg { stroke-width: 1.5; }
 .footer-links a:hover { color: #d4a86a; }
 .footer-bottom {
     height: 74px;
